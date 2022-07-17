@@ -1,0 +1,8 @@
+(fp_lib_table
+  (lib (name "CM4IO")(type "KiCad")(uri "C:/Users/sgmustadio/Documents/GitHub/rpi-cm4-carrier-template/hardware/libraries/CM4IO/CM4IO.pretty")(options "")(descr ""))
+  (lib (name "USB-C-230518-2")(type "KiCad")(uri "/home/mpisman/Documents/KiCad/rpi-cm4-carrier/libraries/USB-C-230518-2/USB-C-230518-2.pretty")(options "")(descr ""))
+  (lib (name "SMBJ5.0A-13-F")(type "KiCad")(uri "/home/mpisman/Documents/KiCad/rpi-cm4-carrier/libraries/SMBJ5.0A-13-F/SMBJ5.0A-13-F.pretty")(options "")(descr ""))
+  (lib (name "USB4105-GF-A")(type "KiCad")(uri "/home/mpisman/Documents/KiCad/rpi-cm4-carrier/libraries/USB4105-GF-A/footprints.pretty")(options "")(descr ""))
+  (lib (name "MEM2051-00-195-00-A")(type "KiCad")(uri "/home/mpisman/Documents/KiCad/rpi-cm4-carrier/libraries/MEM2051-00-195-00-A/footprints.pretty")(options "")(descr ""))
+  (lib (name "BD2233G-GTR")(type "KiCad")(uri "/home/mpisman/Documents/KiCad/rpi-cm4-carrier/libraries/BD2233G-GTR/footprints.pretty")(options "")(descr ""))
+)

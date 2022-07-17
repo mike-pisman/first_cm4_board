@@ -1,0 +1,196 @@
+(kicad_sch (version 20211123) (generator eeschema)
+
+  (uuid b1847b3c-a88b-45ec-b6e3-fa3325d28824)
+
+  (paper "A4")
+
+  (title_block
+    (title "Raspberry Pi Compute Module 4 Carrier")
+    (date "2022-07-06")
+    (rev "v01")
+    (comment 2 "creativecommons.org/licenses/by-sa/4.0/")
+    (comment 3 "License: CC BY 4.0")
+    (comment 4 "Author: Mikhail Pisman")
+  )
+
+  (lib_symbols
+  )
+
+
+  (sheet (at 101.6 101.6) (size 38.1 38.1)
+    (stroke (width 0) (type solid) (color 132 0 132 1))
+    (fill (color 255 255 255 0.0000))
+    (uuid caa71f4c-454d-4ac9-b287-456eafb34991)
+    (property "Sheet name" "CM4 High Speed" (id 0) (at 101.6 100.9645 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheet file" "cm4-high-speed.kicad_sch" (id 1) (at 101.6 140.2085 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+  )
+
+  (sheet (at 101.6 50.8) (size 38.1 38.1)
+    (stroke (width 0) (type solid) (color 132 0 132 1))
+    (fill (color 255 255 255 0.0000))
+    (uuid fc4c71a5-1008-4ac4-98db-57c838c57d91)
+    (property "Sheet name" "CM4 GPIO" (id 0) (at 101.6 50.1645 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheet file" "cm4-gpio.kicad_sch" (id 1) (at 101.6 89.4085 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+    (path "/fc4c71a5-1008-4ac4-98db-57c838c57d91" (page "3"))
+    (path "/caa71f4c-454d-4ac9-b287-456eafb34991" (page "3"))
+  )
+
+  (symbol_instances
+    (path "/fc4c71a5-1008-4ac4-98db-57c838c57d91/f7065807-1b43-4b1c-8d68-75e19f97238d"
+      (reference "#PWR01") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/fc4c71a5-1008-4ac4-98db-57c838c57d91/44310d1a-c8bf-4b2c-9793-2794d1c00a0e"
+      (reference "#PWR02") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/fc4c71a5-1008-4ac4-98db-57c838c57d91/7ed59754-ffad-412f-b771-647e69f69901"
+      (reference "#PWR03") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/fc4c71a5-1008-4ac4-98db-57c838c57d91/1c2c7c1a-fb32-43be-9a9b-ceff6c52de09"
+      (reference "#PWR04") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/fc4c71a5-1008-4ac4-98db-57c838c57d91/77d4d364-2be0-4aca-bfdc-716fef340ef3"
+      (reference "#PWR05") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/fc4c71a5-1008-4ac4-98db-57c838c57d91/492f0f54-35da-499d-95e6-188a03792482"
+      (reference "#PWR06") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/fc4c71a5-1008-4ac4-98db-57c838c57d91/1bf8396f-89d9-4d2a-88c6-287da1e618be"
+      (reference "#PWR08") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/fc4c71a5-1008-4ac4-98db-57c838c57d91/02bcb3f5-529f-4b05-bfbf-f10e27206612"
+      (reference "#PWR09") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/fc4c71a5-1008-4ac4-98db-57c838c57d91/1a080a75-ceb6-4db7-9aa4-8a2147b7c735"
+      (reference "#PWR010") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/fc4c71a5-1008-4ac4-98db-57c838c57d91/0d2e48f4-b3f6-41bd-bca8-0fcde4961137"
+      (reference "#PWR011") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/fc4c71a5-1008-4ac4-98db-57c838c57d91/4f7ae367-7cf4-4a9b-ab29-0f3e7c372dfe"
+      (reference "#PWR012") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/fc4c71a5-1008-4ac4-98db-57c838c57d91/3fd8b3be-c958-4fed-97c1-adf58091a162"
+      (reference "#PWR013") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/caa71f4c-454d-4ac9-b287-456eafb34991/46ce19c8-786f-4791-94aa-a0fad5412a01"
+      (reference "#PWR014") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/caa71f4c-454d-4ac9-b287-456eafb34991/e302dbea-8cb1-402b-bf84-abf440063a09"
+      (reference "#PWR015") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/caa71f4c-454d-4ac9-b287-456eafb34991/b847fad9-ff8d-40e4-9ea5-7e53df3a9c3a"
+      (reference "#PWR016") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/fc4c71a5-1008-4ac4-98db-57c838c57d91/6276d09a-ae4a-47ce-9a4f-b1a0254ac7be"
+      (reference "#PWR0101") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/fc4c71a5-1008-4ac4-98db-57c838c57d91/1b626523-08f8-4cd0-8d33-a02079b1bb0d"
+      (reference "#PWR0102") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/caa71f4c-454d-4ac9-b287-456eafb34991/b10f2041-102d-4e0a-8648-0aba51e0c651"
+      (reference "#PWR0103") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/caa71f4c-454d-4ac9-b287-456eafb34991/3cd82d24-f119-4f74-9d3b-37d982021bf3"
+      (reference "#PWR0104") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/fc4c71a5-1008-4ac4-98db-57c838c57d91/3bb1ad64-bc68-4398-b256-71690a180893"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/fc4c71a5-1008-4ac4-98db-57c838c57d91/a7a660b0-4251-4d08-8cc9-028db97480f3"
+      (reference "C1") (unit 1) (value "10u") (footprint "Capacitor_SMD:C_0805_2012Metric")
+    )
+    (path "/fc4c71a5-1008-4ac4-98db-57c838c57d91/6dcffee1-7101-4761-bb47-0fc674fa88d9"
+      (reference "C2") (unit 1) (value "100n") (footprint "Capacitor_SMD:C_0402_1005Metric")
+    )
+    (path "/fc4c71a5-1008-4ac4-98db-57c838c57d91/9c6e8506-3e8d-42ca-8d0b-3899c8813d44"
+      (reference "CR1") (unit 1) (value "SMBJ5.0A-13-F") (footprint "SMBJ5.0A-13-F:SMBJ5.0A-13-F")
+    )
+    (path "/fc4c71a5-1008-4ac4-98db-57c838c57d91/31c57579-fcfb-4fb5-8f38-ed09078da927"
+      (reference "D1") (unit 1) (value "LED Green") (footprint "LED_SMD:LED_0603_1608Metric")
+    )
+    (path "/fc4c71a5-1008-4ac4-98db-57c838c57d91/03a44df7-db25-4702-a8e8-d4c00c37eab1"
+      (reference "D2") (unit 1) (value "LED Red") (footprint "LED_SMD:LED_0603_1608Metric")
+    )
+    (path "/fc4c71a5-1008-4ac4-98db-57c838c57d91/1dedfc72-fd25-4d29-a37e-2611048822d8"
+      (reference "J1") (unit 1) (value "USB4105-GF-A") (footprint "USB4105-GF-A:USB4105-GF-A")
+    )
+    (path "/fc4c71a5-1008-4ac4-98db-57c838c57d91/3d6027a7-aa7a-40c0-bbba-f8d56c79739b"
+      (reference "J2") (unit 1) (value "Micro_SD_Card_Det") (footprint "CM4IO:SDCARD_MOLEX_503398-1892")
+    )
+    (path "/caa71f4c-454d-4ac9-b287-456eafb34991/c49129fd-7a8b-43a4-bee4-43b84826aee0"
+      (reference "J4") (unit 1) (value "USB_OTG") (footprint "CM4IO:USB_Micro-B_EDAC_UCON00686")
+    )
+    (path "/fc4c71a5-1008-4ac4-98db-57c838c57d91/9a29b503-8d7c-43d4-910d-4aa340c63325"
+      (reference "Module1") (unit 1) (value "ComputeModule4") (footprint "CM4IO:Raspberry-Pi-4-Compute-Module")
+    )
+    (path "/caa71f4c-454d-4ac9-b287-456eafb34991/eea62e41-7e2f-4aa7-b9d5-f8b033ef7618"
+      (reference "Module2") (unit 1) (value "ComputeModule4") (footprint "CM4IO:Raspberry-Pi-4-Compute-Module")
+    )
+    (path "/fc4c71a5-1008-4ac4-98db-57c838c57d91/26749550-c860-4a94-a341-2ea1effc2204"
+      (reference "R1") (unit 1) (value "5.1k") (footprint "Resistor_SMD:R_0201_0603Metric_Pad0.64x0.40mm_HandSolder")
+    )
+    (path "/fc4c71a5-1008-4ac4-98db-57c838c57d91/3499d23a-2cbb-43aa-896a-1a22f7111744"
+      (reference "R2") (unit 1) (value "5.1k") (footprint "Resistor_SMD:R_0201_0603Metric_Pad0.64x0.40mm_HandSolder")
+    )
+    (path "/fc4c71a5-1008-4ac4-98db-57c838c57d91/854d9541-2dec-4bf0-b21b-f7ca27481540"
+      (reference "R3") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0402_1005Metric")
+    )
+    (path "/fc4c71a5-1008-4ac4-98db-57c838c57d91/0e35d0ba-b9b3-4c8d-a682-abc2159df5e9"
+      (reference "R4") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0402_1005Metric")
+    )
+    (path "/fc4c71a5-1008-4ac4-98db-57c838c57d91/83393e16-c225-48ff-ae92-d308835d8a94"
+      (reference "R5") (unit 1) (value "nf") (footprint "Resistor_SMD:R_0402_1005Metric")
+    )
+    (path "/fc4c71a5-1008-4ac4-98db-57c838c57d91/6a7e92c7-4cd3-4e1f-8fcd-a0e0c3e0b5ff"
+      (reference "R6") (unit 1) (value "nf") (footprint "Resistor_SMD:R_0402_1005Metric")
+    )
+    (path "/caa71f4c-454d-4ac9-b287-456eafb34991/4093c333-e3eb-4648-b743-cec5cfc75a15"
+      (reference "R7") (unit 1) (value "2.2K 1%") (footprint "Resistor_SMD:R_0402_1005Metric")
+    )
+    (path "/caa71f4c-454d-4ac9-b287-456eafb34991/da3d8348-60c9-4b9a-836c-d395b79d799a"
+      (reference "R8") (unit 1) (value "2.2K 1%") (footprint "Resistor_SMD:R_0402_1005Metric")
+    )
+    (path "/fc4c71a5-1008-4ac4-98db-57c838c57d91/915591a9-94c9-4c3b-a9cb-d94535d6420e"
+      (reference "R9") (unit 1) (value "470R") (footprint "Resistor_SMD:R_0402_1005Metric")
+    )
+    (path "/fc4c71a5-1008-4ac4-98db-57c838c57d91/ba9e4e8b-6028-4daa-96be-bcf24a556fc3"
+      (reference "R10") (unit 1) (value "470R") (footprint "Resistor_SMD:R_0402_1005Metric")
+    )
+    (path "/fc4c71a5-1008-4ac4-98db-57c838c57d91/c1269e4a-1f0d-4869-b891-a136f7bd66bb"
+      (reference "R11") (unit 1) (value "12K 1%") (footprint "Resistor_SMD:R_0402_1005Metric")
+    )
+    (path "/fc4c71a5-1008-4ac4-98db-57c838c57d91/0668a084-986a-4d38-b0b9-0a284de4d7f5"
+      (reference "TP2") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_2.0x2.0mm")
+    )
+    (path "/fc4c71a5-1008-4ac4-98db-57c838c57d91/52eb5f8f-2418-466b-a320-129c2585fe22"
+      (reference "U1") (unit 1) (value "74LVC1G07QW5-7") (footprint "Package_TO_SOT_SMD:SOT-353_SC-70-5")
+    )
+    (path "/fc4c71a5-1008-4ac4-98db-57c838c57d91/60461b7b-44f0-4749-a7d7-c9c9e047b8ad"
+      (reference "U2") (unit 1) (value "D3V3F4U10LP-7") (footprint "Package_SON:USON-10_2.5x1.0mm_P0.5mm")
+    )
+    (path "/fc4c71a5-1008-4ac4-98db-57c838c57d91/e29f1001-d8ec-453b-8430-64e90d87726c"
+      (reference "U3") (unit 1) (value "D3V3F4U10LP-7") (footprint "Package_SON:USON-10_2.5x1.0mm_P0.5mm")
+    )
+    (path "/fc4c71a5-1008-4ac4-98db-57c838c57d91/f82a6130-990d-4497-9909-3cabe6203735"
+      (reference "U4") (unit 1) (value "BD2233G-GTR") (footprint "BD2233G-GTR:BD2233G-GTR")
+    )
+    (path "/fc4c71a5-1008-4ac4-98db-57c838c57d91/9381fde3-fe02-4672-b202-7f3d7d5951cf"
+      (reference "U5") (unit 1) (value "MagJack-A70-112-331N126") (footprint "CM4IO:TRJG0926HENL")
+    )
+    (path "/caa71f4c-454d-4ac9-b287-456eafb34991/84f0154f-a317-43c3-bf02-669d85590daa"
+      (reference "U6") (unit 1) (value "D3V3F4U10LP-7") (footprint "Package_SON:USON-10_2.5x1.0mm_P0.5mm")
+    )
+  )
+)
